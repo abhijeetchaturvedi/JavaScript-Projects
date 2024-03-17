@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,553;1,553&display=swap');
+*{
+    .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+   
+
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(0, 0, 0),#3a4452);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box {
+    height: 530px;
+    width: 350px;
+    background-color: transparent;
+    /* background-color: #212121; */
+    flex-direction: column;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 10px rgb(172, 165, 165)   ;
+    
+}
+
+.title {
+    height: 8%;
+    font-size: 2rem;
+    /* margin-bottom: 1rem; */
+    border: #212121;
+    padding-bottom:2rem;
+    background-color: rgba(0, 128, 0, 0);
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+      font-family: "Montserrat", sans-serif;
+      
+
+    
+}
+
+.upper {
+    height: 15%;
+    background-color: #21212100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.down {margin-top: -0.2rem;
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+}
+.down div{
+   flex :1;
+   display: flex;
+   justify-content: ;
+}
+button{
+    margin:6px;
+    /* padding:10px; */
+    height:60px;
+    width:60px;
+flex:1;
+border: none;
+/* width:140px; */
+border-radius: 50%;
+border-right: 4px solid #131212;
+border-bottom: 4px solid #131212;
+background-color: transparent;
+font-size: 1.5REM;
+color: white;
+
+}
+input{
+    margin-right:16px;
+    height:90px;
+    background-color: transparent;
+    border: none;
+    /* border: 2px solid black; */
+    text-align: right;
+    width:95%;
+    font-size: 3rem;
+    color: aliceblue;
+}
+h3{
+    margin: 0;
+    /* padding-bottom:1rem; */
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: aliceblue;
+
+   
+}
+div button:nth-of-type(4n){
+    background-color: rgb(255, 196, 0);
+    color: black;
+    font-weight: 700;
+
+    
+}
+.down div:nth-last-of-type(5n-0) button{
+    background-color: rgb(255, 196, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+   
+}
